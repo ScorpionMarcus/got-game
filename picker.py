@@ -42,3 +42,11 @@ def picker():
         print(i + ' is assigned ' + random.choice(characters))
 
 picker()
+
+'''
+TODO
+Add player class
+Assign a new character to a specific dawg after they win, without generating new characters for all dawgs
+Pull characters and dawgs from csv files
+'''
+Remove dead character from characters
