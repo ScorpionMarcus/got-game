@@ -1,7 +1,6 @@
-import csv
+temp = file.read().splitlines()
 
-f = open('data.csv')
-csv_f = csv.reader(f)
-
-for row in csv_f:
-  print(row)
+fh = open('characters.txt')
+for line in fh:
+    print(line)
+fh.close()

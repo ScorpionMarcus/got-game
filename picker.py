@@ -1,52 +1,21 @@
 import random
 
-# List of GoT characters
-characters = [
-    'Jon Snow',
-    'Daenerys Targaryen',
-    'Arya Stark',
-    'Sansa Stark',
-    'Cersei Lannister',
-    'Night King',
-    'Jaime Lannister',
-    'Tyrion Lanniser',
-    'Bran Stark',
-    'Brienne of Tarth',
-    'Davos Seaworth',
-    'Jorah Mormon',
-    'Lord Varys',
-    'Euron Greyjoy',
-    'Samwell Tarly',
-    'Tormund Giantsbane',
-    'Sandor Clegane',
-    'Theon Greyjoy',
-    'Gendry',
-    'Gregor Clegane',
-    'Beric Dondarrion',
-    'Yara Greyjoy',
-    'Bronn',
-    'Grey Worm'
-]
+characters = []
+dawgs = []
 
-# Participants
-dawgs = ['Squid', 'Marcus', 'Mikey', 'Gritty']
+d = open('dawgs.txt', 'r').readlines()
+c = open('characters.txt', 'r').readlines()
 
-# class Player:
-#     def __init__(self, name, character):
-#         self.name = name
-#         self.character = character
+def removeBreak(read, arr):
+    for i in read:
+        arr.append(i.rstrip('\n'))
 
-# Prints which participant gets which character
 def picker():
     for i in dawgs:
-        print(i + ' is assigned ' + random.choice(characters))
+        x = random.choice(characters)
+        print(i + ': ' + x)
+        characters.remove(x)
 
+removeBreak(d, dawgs)
+removeBreak(c, characters)
 picker()
-
-'''
-TODO
-Add player class
-Assign a new character to a specific dawg after they win, without generating new characters for all dawgs
-Pull characters and dawgs from csv files
-'''
-Remove dead character from characters
