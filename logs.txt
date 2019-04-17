@@ -1,0 +1,33 @@
+2019-04-16 21:51:41.434316
+Squid: Sansa Stark
+Marcus: Theon Greyjoy
+Mikey: Jaime Lannister
+Gritty: Yara Greyjoy
+Sterling: Gregor Clegane
+Jerod: Lord Varys
+Harrison: Brienne of Tarth
+Dom: Tyrion Lanniser
+Togz: Daenerys Targaryen
+
+2019-04-16 21:51:45.753528
+Squid: Jaime Lannister
+Marcus: Sandor Clegane
+Mikey: Gregor Clegane
+Gritty: Gendry
+Sterling: Bran Stark
+Jerod: Yara Greyjoy
+Harrison: Beric Dondarrion
+Dom: Grey Worm
+Togz: Theon Greyjoy
+
+2019-04-16 21:53:23.141023
+Squid: Brienne of Tarth
+Marcus: Sandor Clegane
+Mikey: Grey Worm
+Gritty: Cersei Lannister
+Sterling: Daenerys Targaryen
+Jerod: Arya Stark
+Harrison: Tyrion Lanniser
+Dom: Jaime Lannister
+Togz: Lord Varys
+
